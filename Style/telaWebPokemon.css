@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: myFirstFont;
 }
 
 header {
@@ -40,4 +41,16 @@ input {
         grid-template-columns: 1fr 1fr;
         width: 100%;
         gap: 10vw;
-    }
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(./../);
+  }
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
