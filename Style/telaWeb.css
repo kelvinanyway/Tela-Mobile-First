@@ -1,0 +1,86 @@
+body {
+    margin: 100%;
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+
+main {
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+#imagem{
+    display: flex;
+    justify-content: center;
+}
+#container { 
+display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10vw;
+}
+    #login{
+      display: flex;  
+      justify-content: center;
+
+    }
+#login div {
+
+    box-shadow: 1px 1px black;
+    display: grid;
+    border-radius: 11%;
+    justify-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 43%;
+    border: 4px solid rgb(56, 7, 233);
+}
+
+button {
+    background-color: white;
+    width: 200px;
+    border: solid  rgb(56, 7, 233) ;
+   
+}
+
+#login input {
+    width: 267px;
+    height: 35px;
+    
+}
+
+h1 {
+    font-size: 40px;
+    color:  rgb(56, 7, 233);
+}
+
+#login button {
+    margin: 50px;
+    height: 30px;
+    border-radius: 9px;
+
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+img{
+
+ height: 45%;
+ width: 20%;   
+}
+#link{
+    text-decoration: none;
+}
